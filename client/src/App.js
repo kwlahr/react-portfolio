@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/NavBar/index";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
+import ResumePage from "./pages/Resume/index.js";
 import Contact from "./pages/Contact";
 // import '/assets';
 
@@ -26,7 +26,7 @@ function App() {
             </Route>
 
             <Route exact path="/resume">
-              <Resume />
+              <ResumePage />
             </Route>
 
             <Route exact path="/contact">
