@@ -1,0 +1,15 @@
+.root {
+    flex-grow: 1;
+  }
+
+  .brand {
+    font-size: 35px;
+  }
+
+  .gitHub {
+    color: white;
+  }
+
+  .linkedIn {
+    color: white;
+  }
