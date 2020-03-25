@@ -18,7 +18,7 @@ const AboutCard = () => {
   return (
     <div style={{ paddingBottom: "100vh" }}>
       <Container>
-        <Card color="dark" className="mx-auto" style={{ margin: "3rem" }}>
+        <Card color="dark" className="mx-auto" style={{ marginTop: "3rem" }}>
           <Row>
             <Col md="3">
               <CardImg
