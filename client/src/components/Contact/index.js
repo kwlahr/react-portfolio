@@ -50,7 +50,7 @@ const ContactForm = props => {
               <Input type="textarea" name="message" id="message" />
             </FormGroup>
 
-            <Button color="dark">Submit</Button>
+            <Button type="submit" color="dark">Submit</Button>
           </Form>
         </div>
       </Container>
