@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/kwlahr/react-portfolio/issues"
   },
-  "homepage": "https://github.com/kwlahr/react-portfolio#readme"
+  "homepage": "https://github.com/kwlahr/react-portfolio#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  }
 }

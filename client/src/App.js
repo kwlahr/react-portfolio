@@ -6,7 +6,7 @@ import NavBar from "./components/NavBar/index";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import ResumePage from "./pages/Resume/index.js";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contact/index.js";
 // import '/assets';
 
 function App() {

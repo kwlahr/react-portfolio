@@ -8,8 +8,36 @@ import {
   FormText,
   Container
 } from "reactstrap";
+import axios from "axios";
 
 const ContactForm = props => {
+  const handleSubmit = e => {
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+    axios({
+      method: "POST",
+      url: "http://localhost:3002/send",
+      data: {
+        name: name,
+        email: email,
+        messsage: message
+      }
+    }).then(response => {
+      if (response.data.msg === "success") {
+        alert("Message Sent.");
+        this.resetForm();
+      } else if (response.data.msg === "fail") {
+        alert("Message failed to send.");
+      }
+    });
+  }
+
+  const resetForm = () => {
+    document.getElementById("contact-form").reset();
+  }
+
   return (
     <div style={{ paddingBottom: "100vh" }}>
       <Container>
@@ -19,8 +47,8 @@ const ContactForm = props => {
           <h3 className="text-white">
             Have any questions or comments? Get in touch with me here!
           </h3>
-          <hr color="white"/>
-          <Form>
+          <hr color="white" />
+          <Form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
             <FormGroup>
               <Label for="name" className="text-white">
                 Name
@@ -50,7 +78,9 @@ const ContactForm = props => {
               <Input type="textarea" name="message" id="message" />
             </FormGroup>
 
-            <Button type="submit" color="dark">Submit</Button>
+            <Button type="submit" color="dark">
+              Submit
+            </Button>
           </Form>
         </div>
       </Container>
