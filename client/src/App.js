@@ -22,15 +22,15 @@ function App() {
               <About />
             </Route>
 
-            <Route exact path={["/portfolio", "/react-portfolio"]}>
+            <Route exact path="/portfolio">
               <Portfolio props={portfolios} />
             </Route>
 
-            <Route exact path={["/resume", "/react-portfolio"]}>
+            <Route exact path="/resume">
               <ResumePage />
             </Route>
 
-            <Route exact path={["/contact", "/react-portfolio"]}>
+            <Route exact path="/contact">
               <Contact />
             </Route>
           </Switch>
