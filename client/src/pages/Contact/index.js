@@ -45,7 +45,13 @@ export default function Contact() {
     <div style={{ paddingBottom: "100vh" }}>
       <Container>
         <div
-          style={{ marginTop: "3rem", padding: "2rem", border: "solid 2px" }}
+          style={{
+            marginTop: "3rem",
+            padding: "2rem",
+            border: "solid 2px",
+            borderRadius: "5px",
+            backgroundColor: "#343A40"
+          }}
         >
           <h3 className="text-white">
             Have any questions or comments? Get in touch with me here!
@@ -76,10 +82,15 @@ export default function Contact() {
               <Label for="message" className="text-white">
                 Your Message
               </Label>
-              <Input type="textarea" name="message"/>
+              <Input type="textarea" name="message" />
             </FormGroup>
 
-            <Button type="submit" value="Send" color="dark">
+            <Button
+              type="submit"
+              value="Send"
+              color="dark"
+              style={{ border: "solid 1px" }}
+            >
               Submit
             </Button>
           </Form>

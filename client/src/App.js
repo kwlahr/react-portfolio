@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/NavBar/index";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
+import portfolios from './assets/data/portfolio.json'
 import ResumePage from "./pages/Resume/index.js";
 import Contact from "./pages/Contact/index.js";
 // import '/assets';
@@ -22,7 +23,7 @@ function App() {
             </Route>
 
             <Route exact path="/portfolio">
-              <Portfolio />
+              <Portfolio props={portfolios} />
             </Route>
 
             <Route exact path="/resume">

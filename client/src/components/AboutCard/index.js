@@ -11,14 +11,14 @@ import {
   Row,
   Col
 } from "reactstrap";
-import image from "../../assets/kyleheadshot.jpg";
+import image from "../../assets/images/kyleheadshot.jpg";
 import "./style.css";
 
 const AboutCard = () => {
   return (
     <div style={{ paddingBottom: "100vh" }}>
       <Container>
-        <Card color="dark" className="mx-auto" style={{ marginTop: "3rem" }}>
+        <Card color="dark" className="mx-auto" style={{ border: "solid 2px ", marginTop: "3rem" }}>
           <Row>
             <Col md="3">
               <CardImg

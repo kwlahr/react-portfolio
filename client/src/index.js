@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './assets/kyleheadshot.jpg';
+import './assets/images/kyleheadshot.jpg';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

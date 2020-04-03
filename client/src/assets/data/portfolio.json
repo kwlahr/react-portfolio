@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "img": "noteTaker.gif",
+    "title": "Note Taker",
+    "repo": "https://github.com/kwlahr/note-taker",
+    "description": "A CRUD application used to write, save, and delete user notes."
+  },
+  {
+    "id": 2,
+    "img": "whiskeyJournal.gif",
+    "title": "Whiskey Journal",
+    "repo": "https://github.com/eric-gustafson1/whiskey-journal",
+    "description": "A CRUD application allowing users to track whiskeys they've tasted and save tasting notes to a SQL database"
+  },
+  {
+    "id": 3,
+    "img": "burgerApp.gif",
+    "title": "Burger App",
+    "repo": "https://github.com/kwlahr/burger-app",
+    "description": "A dynamic CRUD application that takes user input and manipulates it within the viewport based on click events."
+  },
+  {
+    "id": 4,
+    "img": "weatherDashboard.gif",
+    "title": "Weather Dashboard",
+    "repo": "https://github.com/kwlahr/weather-dashboard",
+    "description": "A real time weather dashboard sourcing information from the OpenWeather API based on user input"
+  }
+]
