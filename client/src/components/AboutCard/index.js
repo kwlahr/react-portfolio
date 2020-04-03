@@ -16,7 +16,7 @@ import "./style.css";
 
 const AboutCard = () => {
   return (
-    <div style={{ paddingBottom: "100vh" }}>
+    <div>
       <Container>
         <Card color="dark" className="mx-auto" style={{ border: "solid 2px ", marginTop: "3rem" }}>
           <Row>
