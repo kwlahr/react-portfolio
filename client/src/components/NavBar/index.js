@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "./style.css";
 
 import {
@@ -33,17 +34,25 @@ const NavBar = props => {
         </NavLink>
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
-            <NavItem>
-              <NavLink href="/about">About</NavLink>
+            <NavItem >
+              <Link to="/about" className="text-white">
+                About
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/portfolio">Portfolio</NavLink>
+              <Link to="/portfolio" className="text-white">
+                Portfolio
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/resume">Resume</NavLink>
+              <Link to="/resume" className="text-white">
+                Resume
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <Link to="/contact" className="text-white">
+                Contact
+              </Link>
             </NavItem>
           </Nav>
         </Collapse>
