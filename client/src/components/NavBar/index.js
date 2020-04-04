@@ -34,25 +34,33 @@ const NavBar = props => {
         </NavLink>
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
-            <NavItem >
-              <Link to="/about" className="text-white">
-                About
-              </Link>
+            <NavItem>
+              <NavLink>
+                <Link to="/about" className="text-white">
+                  About
+                </Link>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <Link to="/portfolio" className="text-white">
-                Portfolio
-              </Link>
+              <NavLink>
+                <Link to="/portfolio" className="text-white">
+                  Portfolio
+                </Link>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <Link to="/resume" className="text-white">
-                Resume
-              </Link>
+              <NavLink>
+                <Link to="/resume" className="text-white">
+                  Resume
+                </Link>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <Link to="/contact" className="text-white">
-                Contact
-              </Link>
+              <NavLink>
+                <Link to="/contact" className="text-white">
+                  Contact
+                </Link>
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>
