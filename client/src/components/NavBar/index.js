@@ -23,7 +23,7 @@ const NavBar = props => {
     <div>
       <Navbar color="dark" dark>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-        <NavbarBrand href="/" className="mr-auto brand">
+        <NavbarBrand href="https://kwlahr.github.io/react-portfolio" className="mr-auto brand">
           Kyle Lahr
         </NavbarBrand>
         <NavLink href="https://github.com/kwlahr">
