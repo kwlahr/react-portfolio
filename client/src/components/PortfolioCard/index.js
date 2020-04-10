@@ -8,7 +8,7 @@ import {
   Col
 } from "reactstrap";
 
-export default function PortfolioCard({ img, title, repo, description }) {
+export default function PortfolioCard({ img, title, repo, deployed, description }) {
   let imagePath = require(`../../assets/images/${img}`);
   return (
     <Card
@@ -25,6 +25,9 @@ export default function PortfolioCard({ img, title, repo, description }) {
       />
       <CardLink className="text-white" style={{marginLeft: "10px"}} target="blank" href={repo}>
         GitHub Repo
+      </CardLink>
+      <CardLink className="text-white" style={{marginLeft: "10px"}} target="blank" href={deployed}>
+        Deployed App
       </CardLink>
       <CardBody style={{width: "250px"}}>{description}</CardBody>
     </Card>

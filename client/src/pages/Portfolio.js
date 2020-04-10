@@ -24,6 +24,7 @@ export default function Portfolio() {
                   title={portfolio.title}
                   img={portfolio.img}
                   repo={portfolio.repo}
+                  deployed={portfolio.deployed}
                   description={portfolio.description}
                 />
               );

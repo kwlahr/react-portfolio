@@ -4,6 +4,7 @@
     "img": "noteTaker.gif",
     "title": "Note Taker",
     "repo": "https://github.com/kwlahr/note-taker",
+    "deployed": "https://shrouded-gorge-99972.herokuapp.com/",
     "description": "A CRUD application used to write, save, and delete user notes."
   },
   {
@@ -11,6 +12,7 @@
     "img": "whiskeyJournal.gif",
     "title": "Whiskey Journal",
     "repo": "https://github.com/eric-gustafson1/whiskey-journal",
+    "deployed": "https://whiskey-journal.herokuapp.com/",
     "description": "A CRUD application allowing users to track whiskeys they've tasted and save tasting notes to a SQL database"
   },
   {
@@ -18,6 +20,7 @@
     "img": "burgerApp.gif",
     "title": "Burger App",
     "repo": "https://github.com/kwlahr/burger-app",
+    "deployed": "https://kyle-burger-app.herokuapp.com/",
     "description": "A dynamic CRUD application that takes user input and manipulates it within the viewport based on click events."
   },
   {
@@ -25,6 +28,7 @@
     "img": "weatherDashboard.gif",
     "title": "Weather Dashboard",
     "repo": "https://github.com/kwlahr/weather-dashboard",
+    "deployed": "https://kwlahr.github.io/weather-dashboard/",
     "description": "A real time weather dashboard sourcing information from the OpenWeather API based on user input"
   }
 ]
