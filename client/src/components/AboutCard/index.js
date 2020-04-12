@@ -9,7 +9,7 @@ import {
   CardSubtitle,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 import image from "../../assets/images/kyleheadshot.jpg";
 import "./style.css";
@@ -18,7 +18,11 @@ const AboutCard = () => {
   return (
     <div>
       <Container>
-        <Card color="dark" className="mx-auto" style={{ border: "solid 2px ", marginTop: "3rem", padding: "1rem" }}>
+        <Card
+          color="dark"
+          className="mx-auto"
+          style={{ border: "solid 2px ", marginTop: "3rem", padding: "1rem" }}
+        >
           <Row>
             <Col md="3">
               <CardImg

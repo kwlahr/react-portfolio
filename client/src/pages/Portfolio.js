@@ -4,7 +4,7 @@ import PortfolioCard from "../components/PortfolioCard";
 import portfolios from "../assets/data/portfolio.json";
 export default function Portfolio() {
   return (
-    <div style={{ paddingBottom: "100vh" }}>
+    <div style={{ paddingBottom: "100vh", paddingLeft: "1rem", paddingRight: "1rem" }}>
       <Container
         style={{
           marginTop: "3rem",
