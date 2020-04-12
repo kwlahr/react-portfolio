@@ -11,8 +11,7 @@ export default function Portfolio() {
           padding: "2rem",
           border: "solid 2px",
           borderRadius: "5px",
-          backgroundColor: "#343A40",
-          alignContent: "center"
+          backgroundColor: "#343A40"
         }}
       >
         <h1 className="text-white">Portfolio</h1>

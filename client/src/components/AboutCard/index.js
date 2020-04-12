@@ -18,11 +18,11 @@ const AboutCard = () => {
   return (
     <div>
       <Container>
-        <Card color="dark" className="mx-auto" style={{ border: "solid 2px ", marginTop: "3rem" }}>
+        <Card color="dark" className="mx-auto" style={{ border: "solid 2px ", marginTop: "3rem", padding: "1rem" }}>
           <Row>
             <Col md="3">
               <CardImg
-                className="image m-2"
+                className="image md-2"
                 width="100%"
                 src={image}
                 alt="Card image cap"
