@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kwlahr.github.io/react-portfolio",
+  "homepage": "https://kwlahr.github.io/react-portfolio/#/",
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@material-ui/icons": "^4.9.1",
@@ -18,8 +18,7 @@
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "reactstrap": "^8.4.1",
-    "gh-pages": "^2.2.0"
+    "reactstrap": "^8.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
