@@ -25,10 +25,10 @@
   },
   {
     "id": 4,
-    "img": "weatherDashboard.gif",
-    "title": "Weather Dashboard",
-    "repo": "https://github.com/kwlahr/weather-dashboard",
-    "deployed": "https://kwlahr.github.io/weather-dashboard/",
-    "description": "A real time weather dashboard sourcing information from the OpenWeather API based on user input"
+    "img": "react-weather-app.gif",
+    "title": "React Weather App",
+    "repo": "https://github.com/kwlahr/react-weather-app",
+    "deployed": "https://kwlahr.github.io/react-weather-app/",
+    "description": "A real time weather dashboard sourcing information from the OpenWeather API based on user input, bootstrapped with create-react-app"
   }
 ]

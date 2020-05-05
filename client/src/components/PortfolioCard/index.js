@@ -29,7 +29,7 @@ export default function PortfolioCard({
               marginTop: "3rem",
               padding: "1rem",
               width: "18rem",
-              height: "27rem",
+              height: "30rem",
             }}
           >
             <CardHeader title={title}>

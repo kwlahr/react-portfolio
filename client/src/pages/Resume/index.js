@@ -71,9 +71,9 @@ export default class Resume extends Component {
             </CardTitle>
             <CardText className="text-center">
               HTML5 | CSS | Materialize | Javascript | React | JQuery | Node.js
-              | Express | Express-Handlebars | JawsDB | AWS | MySQL | Sequelize |
-              MongoDB | Mongoose | GitHub | Postman | Heroku | Agile Methodology
-              | Visual Studio Code
+              | Express | Express-Handlebars | JawsDB | AWS | MySQL | Sequelize
+              | MongoDB | Mongoose | GitHub | Postman | Heroku | Agile
+              Methodology | Visual Studio Code
             </CardText>
             <CardText className="text-center">MERN Stack Focus</CardText>
             <CardTitle
@@ -86,11 +86,11 @@ export default class Resume extends Component {
               <h4>Whiskey Journal</h4>
             </CardTitle>
             <CardLink
-              href="http://whiskey-journal.herokuapp.com/"
+              href="https://github.com/eric-gustafson1/whiskey-journal"
               target="_blank"
               className="text-white"
             >
-              http://whiskey-journal.herokuapp.com/
+              https://github.com/eric-gustafson1/whiskey-journal
             </CardLink>
             <CardText>
               <ul>
@@ -107,21 +107,21 @@ export default class Resume extends Component {
             </CardText>
             <hr color="white" />
             <CardTitle>
-              <h4>Book Finder</h4>
+              <h4>React Weather App</h4>
             </CardTitle>
             <CardLink
-              href="https://waterylime.github.io/Book-Finder/"
+              href="https://github.com/kwlahr/react-weather-app"
               target="_blank"
               className="text-white"
             >
-              https://waterylime.github.io/Book-Finder/
+              https://github.com/kwlahr/react-weather-app
             </CardLink>
             <CardText>
               <ul>
-                <li>HTML5, CSS, Bulma, Javascript, JQuery</li>
+                <li>React, Reactstrap, gh-pages, OpenWeather API, Axios</li>
                 <li>
-                  An application utilizing the Google Books API to recommend
-                  books to users based on user-side input
+                  A real time weather PWA bootstrapped with create-react-app
+                  utilizing the OpenWeather.org RESTful api
                 </li>
               </ul>
             </CardText>
@@ -130,11 +130,11 @@ export default class Resume extends Component {
               <h4>Burger App</h4>
             </CardTitle>
             <CardLink
-              href="https://kyle-burger-app.herokuapp.com/"
+              href="https://github.com/kwlahr/burger-app"
               target="_blank"
               className="text-white"
             >
-              https://kyle-burger-app.herokuapp.com/
+              https://github.com/kwlahr/burger-app
             </CardLink>
             <CardText>
               <ul>
@@ -143,7 +143,7 @@ export default class Resume extends Component {
                   Express, Express-Handlebars, MVC Framework
                 </li>
                 <li>
-                  A simple CRUD application that allows a user to create a
+                  A CRUD application that allows a user to create a
                   burger that will dynamically populate in the viewport and
                   change columns based on click events
                 </li>
