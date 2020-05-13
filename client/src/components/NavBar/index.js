@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import EmailIcon from "@material-ui/icons/Email";
+// const Mailto = require("react-mailto");
 import "./style.css";
 
 import {
@@ -11,10 +13,10 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink
+  NavLink,
 } from "reactstrap";
 
-const NavBar = props => {
+const NavBar = (props) => {
   const [collapsed, setCollapsed] = useState(true);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
@@ -23,13 +25,22 @@ const NavBar = props => {
     <div>
       <Navbar color="dark" dark>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-        <NavbarBrand href="https://kwlahr.github.io/react-portfolio" className="mr-auto brand">
+        <NavbarBrand
+          href="https://kwlahr.github.io/react-portfolio"
+          className="mr-auto brand"
+        >
           Kyle Lahr
         </NavbarBrand>
-        <NavLink href="https://github.com/kwlahr">
+        <NavLink href="mailto:kwlahr@gmail.com" target="_blank">
+            <EmailIcon fontSize="medium" className="email" />
+        </NavLink>
+        <NavLink href="https://github.com/kwlahr" target="_blank">
           <GitHubIcon fontSize="medium" className="gitHub" />
         </NavLink>
-        <NavLink href="https://www.linkedin.com/in/kyle-lahr-b2249b96/">
+        <NavLink
+          href="https://www.linkedin.com/in/kyle-lahr-b2249b96/"
+          target="_blank"
+        >
           <LinkedInIcon fontSize="medium" className="linkedIn" />
         </NavLink>
         <Collapse isOpen={!collapsed} navbar>
