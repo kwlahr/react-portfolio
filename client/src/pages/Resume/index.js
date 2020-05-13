@@ -121,7 +121,7 @@ export default class Resume extends Component {
                 <li>React, Reactstrap, gh-pages, OpenWeather API, Axios</li>
                 <li>
                   A real time weather PWA bootstrapped with create-react-app
-                  utilizing the OpenWeather.org RESTful api
+                  utilizing the OpenWeatherMap.org RESTful API
                 </li>
               </ul>
             </CardText>
@@ -143,9 +143,7 @@ export default class Resume extends Component {
                   Express, Express-Handlebars, MVC Framework
                 </li>
                 <li>
-                  A CRUD application that allows a user to create a
-                  burger that will dynamically populate in the viewport and
-                  change columns based on click events
+                  A CRUD application showcasing DOM manipulaiton and data migration based on user side click events
                 </li>
               </ul>
             </CardText>
