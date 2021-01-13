@@ -156,17 +156,19 @@ export default class Resume extends Component {
             <CardTitle>
               <h5>
                 <span style={{fontStyle: "bold"}}> Bar Manager </span> |{" "}
-                <span style={{ fontStyle: "italic" }}>2013 - Present</span>
+                The Great American Melodrama {" "}
+                <span style={{ fontStyle: "italic" }}>10/2017 - 09/2018</span> | {" "}
+                Zeal DTC
+                <span style={{ fontStyle: "italic" }}>10/2019 - 09/2020</span> | {" "}
               </h5>
             </CardTitle>
             <CardText>
               <ul>
-                <li>Upright Bass, Electric Bass, Tuba, Guitar</li>
+                <li>Managing bar stock, invoices, employee schedules, sales reports, and bank deposits</li>
                 <li>
-                  Contracted musician for studio recordings, bluegrass, jazz,
-                  rock, and event bands, as well as regional musical theater pit
-                  orchestras throughout the country.
+                  Analyzing sales reports and designing strategies to increase profits
                 </li>
+                <li>Bartending and addressing customer needs. </li>
               </ul>
             </CardText>
           </CardBody>
