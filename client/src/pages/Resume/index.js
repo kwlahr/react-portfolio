@@ -151,11 +151,11 @@ export default class Resume extends Component {
               className="underlined text-center text-underlined"
               style={{ textDecoration: "underline" }}
             >
-              <h3>Experience</h3>
+              <h3>Work History</h3>
             </CardTitle>
             <CardTitle>
               <h5>
-                Freelance Musician |{" "}
+                <span style={{fontStyle: "bold"}}> Bar Manager </span> |{" "}
                 <span style={{ fontStyle: "italic" }}>2013 - Present</span>
               </h5>
             </CardTitle>
