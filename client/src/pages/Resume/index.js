@@ -143,7 +143,8 @@ export default class Resume extends Component {
                   Express, Express-Handlebars, MVC Framework
                 </li>
                 <li>
-                  A CRUD application showcasing DOM manipulaiton and data migration based on user side click events
+                  A CRUD application showcasing DOM manipulaiton and data
+                  migration based on user side click events
                 </li>
               </ul>
             </CardText>
@@ -154,19 +155,22 @@ export default class Resume extends Component {
               <h3>Work History</h3>
             </CardTitle>
             <CardTitle>
-              <h5>
-                <span style={{fontStyle: "bold"}}> Bar Manager </span> |{" "}
-                The Great American Melodrama {" "}
-                <span style={{ fontStyle: "italic" }}>10/2017 - 09/2018</span> | {" "}
-                Zeal DTC
-                <span style={{ fontStyle: "italic" }}>10/2019 - 09/2020</span> | {" "}
+              <h4> Bar Manager</h4> <h5>
+                The Great American Melodrama{" "}
+                <span style={{ fontStyle: "italic" }}>10/2017 - 09/2018</span> |{" "}
+                Zeal DTC {" "}
+                <span style={{ fontStyle: "italic" }}>10/2018 - 09/2020</span>
               </h5>
             </CardTitle>
             <CardText>
               <ul>
-                <li>Managing bar stock, invoices, employee schedules, sales reports, and bank deposits</li>
                 <li>
-                  Analyzing sales reports and designing strategies to increase profits
+                  Managing bar stock, invoices, employee schedules, sales
+                  reports, and bank deposits
+                </li>
+                <li>
+                  Analyzing sales reports and designing strategies to increase
+                  profits
                 </li>
                 <li>Bartending and addressing customer needs. </li>
               </ul>
