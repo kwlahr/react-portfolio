@@ -24,9 +24,9 @@
     "reactstrap": "^8.8.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "debug": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev -p 5000",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
