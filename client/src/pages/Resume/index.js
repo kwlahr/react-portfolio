@@ -155,9 +155,9 @@ export default class Resume extends Component {
               <h3>Work History</h3>
             </CardTitle>
             <CardTitle>
-              <h4> Bar Manager</h4> <h5>
-                The Great American Melodrama{" "}
-                <span style={{ fontStyle: "italic" }}>10/2017 - 09/2018</span> |{" "}
+              <h4> Senior Backend Developer/SQL Developer</h4> <h5>
+                {/* The Great American Melodrama{" "}
+                <span style={{ fontStyle: "italic" }}>10/2021 - present</span> |{" "} */}
                 Zeal DTC {" "}
                 <span style={{ fontStyle: "italic" }}>10/2018 - 09/2020</span>
               </h5>
