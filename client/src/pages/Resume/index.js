@@ -74,13 +74,14 @@ export default class Resume extends Component {
               <h3>Technical Skills</h3>
             </CardTitle>
             <CardText className="text-center">
-              HTML5 | CSS | Materialize | Javascript | React | JQuery | Node.js
-              | Express | Express-Handlebars | JawsDB | AWS | MySQL | Sequelize
-              | MongoDB | Mongoose | GitHub | Postman | Heroku | Agile
-              Methodology | Visual Studio Code
+              T-SQL | MySQL | Sequelize | C# | SSIS | SSMS | HTML5 | CSS | MS
+              SQL Server | Azure | SSRS | SSAS | Profiler | Query Analyzer |
+              SSDT | Materialize | Javascript | React | JQuery | Node.js |
+              Express | Express-Handlebars | JawsDB | AWS | MongoDB | Mongoose |
+              Git | Postman | Heroku | Agile Methodology | Visual Studio Code
             </CardText>
             <CardText className="text-center">MERN Stack Focus</CardText>
-            <CardTitle
+            {/* <CardTitle
               className="underlined text-center text-underlined"
               style={{ textDecoration: "underline" }}
             >
@@ -151,7 +152,7 @@ export default class Resume extends Component {
                   migration based on user side click events
                 </li>
               </ul>
-            </CardText>
+            </CardText> */}
             <CardTitle
               className="underlined text-center text-underlined"
               style={{ textDecoration: "underline" }}
@@ -161,8 +162,6 @@ export default class Resume extends Component {
             <CardTitle>
               <h4> Senior Backend Developer/SQL Developer</h4>{" "}
               <h5>
-                {/* The Great American Melodrama{" "}
-                <span style={{ fontStyle: "italic" }}>10/2021 - present</span> |{" "} */}
                 Accutrend Data Corporation{" "}
                 <span style={{ fontStyle: "italic" }}>10/2021 - present</span>
               </h5>
@@ -180,6 +179,60 @@ export default class Resume extends Component {
                 <li>
                   Performing testing and quality analysis to troubleshoot
                   technical issues as they arise{" "}
+                </li>
+              </ul>
+            </CardText>
+            <CardTitle>
+              <h4>SQL/ETL Developer</h4>{" "}
+              <h5>
+                Cigna{" "}
+                <span style={{ fontStyle: "italic" }}>06/2019 - 10/2021</span>
+              </h5>
+            </CardTitle>
+            <CardText>
+              <ul>
+                <li>
+                  Maintaining SQL scripts indexes and complex queries for
+                  analysis and extraction
+                </li>
+                <li>
+                  Performing quality testing and assurance for SQL servers
+                </li>
+                <li>
+                  Identified SQL statement with poor performance using the MS
+                  performance Monitor and SQL Trace Tools
+                </li>
+                <li>
+                  Developing stored procedures, triggers, views and
+                  adding/modifying tables for data load, transformation and
+                  extraction
+                </li>
+                <li>
+                  Working with stakeholders, developers, and production teams
+                  across units to identify business needs and solution options{" "}
+                </li>
+              </ul>
+            </CardText>
+            <CardTitle>
+              <h4>SQL Developer</h4>{" "}
+              <h5>
+                Geico{" "}
+                <span style={{ fontStyle: "italic" }}>05/2017 - 06/2019</span>
+              </h5>
+            </CardTitle>
+            <CardText>
+              <ul>
+                <li>
+                  Designing ETL processes and data pipelines to bring data from
+                  various sources into a central data repository
+                </li>
+                <li>
+                  Writing SQL queries against Snowflake; Developing scripts with
+                  Unix, Python, etc. to Extract, Transform, and Load data
+                </li>
+                <li>
+                  Complete software development lifecycle experience including
+                  design, documentation, implementation, testing, and deployment{" "}
                 </li>
               </ul>
             </CardText>
