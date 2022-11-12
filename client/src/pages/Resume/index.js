@@ -26,7 +26,7 @@ export default class Resume extends Component {
             <CardTitle>
               <h1>Kyle Lahr</h1>
             </CardTitle>
-            <CardText>Denver, CO 80231</CardText>
+            <CardText>Denver, CO 80209</CardText>
             <CardText>Email: kwlahr@gmail.com</CardText>
           </CardHeader>
           <CardBody className="text-white" style={{ padding: "3rem" }}>
@@ -37,12 +37,16 @@ export default class Resume extends Component {
               <h3>Summary</h3>
             </CardTitle>
             <CardText>
-              Full-Stack Software Developer with a focus in responsive front-end
-              UI and a passion for constant learning. As a developer, I strive
-              to connect people to the world around them in a fast and intuitive
-              way, allowing companies to reach their user base in an engaging
-              manner, and enabling users to take full advantage of modern
-              technology.
+              Full-Stack Software Developer with a focus in Azure based back-end
+              development. My experience as the Back-End Developer and Database
+              Administrator for Accutrend has sharpened my expertise in cloud
+              based data processing utilizing tools such as SSMS, SSIS, and
+              Azure Data Studio to develop, manage, and automate data flows for
+              records from over 2300 sources. Attending The University of Denver
+              Full-Stack Coding Bootcamp allowed me to gain rigorous practice
+              with several modern programming languages with a focus in React,
+              Javascript, Node.js, MySQL, MongoDB, and their respective
+              frameworks and libraries.
             </CardText>
             <CardTitle
               className="underlined text-center text-underlined"
@@ -155,24 +159,28 @@ export default class Resume extends Component {
               <h3>Work History</h3>
             </CardTitle>
             <CardTitle>
-              <h4> Senior Backend Developer/SQL Developer</h4> <h5>
+              <h4> Senior Backend Developer/SQL Developer</h4>{" "}
+              <h5>
                 {/* The Great American Melodrama{" "}
                 <span style={{ fontStyle: "italic" }}>10/2021 - present</span> |{" "} */}
-                Zeal DTC {" "}
-                <span style={{ fontStyle: "italic" }}>10/2018 - 09/2020</span>
+                Accutrend Data Corporation{" "}
+                <span style={{ fontStyle: "italic" }}>10/2021 - present</span>
               </h5>
             </CardTitle>
             <CardText>
               <ul>
                 <li>
-                  Managing bar stock, invoices, employee schedules, sales
-                  reports, and bank deposits
+                  Using tools such as SSIS and SSMS to automate ETL processes
+                  from over 2300 sources
                 </li>
                 <li>
-                  Analyzing sales reports and designing strategies to increase
-                  profits
+                  Designing SQL queries to pull and manage data from several
+                  databases from physical servers to Azure cloud servers
                 </li>
-                <li>Bartending and addressing customer needs. </li>
+                <li>
+                  Performing testing and quality analysis to troubleshoot
+                  technical issues as they arise{" "}
+                </li>
               </ul>
             </CardText>
           </CardBody>
